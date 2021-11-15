@@ -6,3 +6,17 @@ A chaque manche, tous les joueurs retournent une carte de sa pile, le gagnant es
 Le gagnant de la manche récupère toutes les cartes retournées Dans le cas où il y aurait égalité, il y a "bataille". Chaque joueur impliqué dans cette bataille retourne une nouvelle carte face cachée, puis une autre carte. Cette dernière sert pour déterminer le gagnant de la manche. En cas de nouvelle égalité, on répète le processus. Le gagnant est celui qui récupère les 52 cartes du jeu 
 
 Dans le cas où 3 joueurs ou plus sont encore en jeu, si une bataille éclate et qu'un des joueurs n'a plus assez de cartes pour mener à bien la bataille, il est éliminé et le gagnant de la manche est déterminé parmi les joueurs restant selon les règles classiques Dans le cas où il ne resterait plus que deux joueurs en jeu si une bataille éclate et qu'un des joueurs n'a plus assez de cartes pour mener à bien la bataille, la partie se termine sur un "pat", une égalité, il n'y a donc aucun gagnant et le jeu s'arrête
+
+# A Produire
+
+Bibliothèque gérant les interactions avec l'API
+Bibliothèque de logique du jeu
+Application console gérant l'affichage du déroulé de la partie
+Projets de tests unitaires des différentes bibliothèques et de l'application
+
+# Requis
+
+Utiliser la bibliothèque API pour mettre en place un autre jeu de carte
+Pouvoir utiliser un autre système de gestion de cartes que l'API Deck Of Cards
+
+
