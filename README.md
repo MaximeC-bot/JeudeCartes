@@ -18,5 +18,6 @@ Projets de tests unitaires des différentes bibliothèques et de l'application
 
 Utiliser la bibliothèque API pour mettre en place un autre jeu de carte
 Pouvoir utiliser un autre système de gestion de cartes que l'API Deck Of Cards
+N'utiliser qu'un seul HHTPclient
 
 
